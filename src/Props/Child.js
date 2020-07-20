@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 export default class Child extends Component {
-  //this.props: là thuộc tính có sẳn của component nhận giá trị từ component chà truyền vào
+  //this.props: là thuộc tính có sẳn của component nhận giá trị từ component cha truyền vào
   render() {
     let { name, price, image } = this.props.productProps;
     return (

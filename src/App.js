@@ -7,6 +7,8 @@ import RenderWithMap from "./RenderWithMap/RenderWithMap";
 import ExRenderMap from "./RenderWithMap/ExRenderMap";
 import DemoProps from "./Props/DemoProps";
 import BT2productList from "./Props/BT2productList/BT2productList";
+import DemoPropsFunction from "./Props/DemoPropsFunction/DemoPropsFunction";
+import BTGH from "./Props/BaiTapGioHang/BTGH";
 function App() {
   return (
     <div className="App">
@@ -16,7 +18,9 @@ function App() {
       {/*<RenderWithMap></RenderWithMap>*/}
       {/*<ExRenderMap />*/}
       {/*<DemoProps />*/}
-      <BT2productList />
+      {/*<BT2productList />*/}
+      {/* <DemoPropsFunction /> */}
+      <BTGH />
     </div>
   );
 }
